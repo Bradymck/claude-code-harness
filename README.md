@@ -18,6 +18,14 @@ idea ──▶ /bootstrap ──▶ /prd ──▶ /ralph ──▶ ralph-execut
 
 ## Install
 
+One-liner:
+
+```bash
+git clone https://github.com/Bradymck/claude-code-harness && mkdir -p ~/.claude/skills && cp -r claude-code-harness/skills/* ~/.claude/skills/
+```
+
+Or step by step:
+
 ```bash
 # Skills (global — available in every project)
 mkdir -p ~/.claude/skills
