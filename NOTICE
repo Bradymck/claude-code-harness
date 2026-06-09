@@ -1,0 +1,15 @@
+This repository includes material adapted from:
+
+1. ai-dev-tasks (https://github.com/snarktank/ai-dev-tasks)
+   Copyright Ryan Carson
+   Licensed under the Apache License, Version 2.0
+   (http://www.apache.org/licenses/LICENSE-2.0)
+   Adapted in: skills/prd/SKILL.md
+
+2. ralph (https://github.com/snarktank/ralph)
+   Copyright Ryan Carson
+   Licensed under the MIT License
+   Adapted in: skills/ralph/SKILL.md
+
+The Ralph technique (autonomous agent loop with fresh context per
+iteration) was created by Geoffrey Huntley (https://ghuntley.com/ralph/).

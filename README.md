@@ -66,3 +66,16 @@ Each SKILL.md is self-contained markdown — edit freely:
 - `pr/SKILL.md`: hardcode your git identity in step 1 to make it self-enforcing
 - `ralph-executor.md`: add your project's auth model, conventions, or gotcha docs under "Project Conventions"
 - `bootstrap/SKILL.md`: swap the generic deliberation phase for your own review agent if you have one
+
+## Credits
+
+This harness builds on prior work — go star the originals:
+
+- **`/prd`** is adapted from [Ryan Carson's ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) (`create-prd.md`, Apache-2.0) — the clarifying-questions flow, PRD structure, and `tasks/prd-[feature-name].md` convention are his.
+- **`/ralph`** and the `prd.json` format (`userStories` / `passes` / `notes`, one-story-per-context-window sizing) are adapted from [Ryan Carson's ralph](https://github.com/snarktank/ralph) (MIT).
+- The **Ralph technique** itself — running a coding agent in a loop with fresh context per iteration, memory in files and git — was created and named by [Geoffrey Huntley](https://ghuntley.com/ralph/).
+- `/bootstrap` and `/pr` are original to this repo.
+
+## License
+
+MIT (this repo). The `/prd` skill is a derivative of Apache-2.0 licensed work from [ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) — see [NOTICE](NOTICE).
