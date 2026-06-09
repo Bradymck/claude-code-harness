@@ -74,7 +74,9 @@ This harness builds on prior work — go star the originals:
 - **`/prd`** is adapted from [Ryan Carson's ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) (`create-prd.md`, Apache-2.0) — the clarifying-questions flow, PRD structure, and `tasks/prd-[feature-name].md` convention are his.
 - **`/ralph`** and the `prd.json` format (`userStories` / `passes` / `notes`, one-story-per-context-window sizing) are adapted from [Ryan Carson's ralph](https://github.com/snarktank/ralph) (MIT).
 - The **Ralph technique** itself — running a coding agent in a loop with fresh context per iteration, memory in files and git — was created and named by [Geoffrey Huntley](https://ghuntley.com/ralph/).
-- `/bootstrap` and `/pr` are original to this repo.
+- The "Verify in browser" acceptance criteria reference [Sawyer Hood's dev-browser](https://github.com/SawyerHood/dev-browser) skill (install separately, or substitute your own browser-verification skill).
+- The "Agent Operating Rules" block in `/bootstrap` is adapted from a widely-circulated X prompt — **original author unknown**. If you know who wrote it, [open an issue](../../issues) so we can credit them.
+- `/bootstrap`'s structure and `/pr` are original to this repo.
 
 ## License
 
