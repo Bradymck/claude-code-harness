@@ -23,6 +23,7 @@ This repository includes material adapted from:
    or substitute your own browser-verification skill.
 
 5. The "Agent Operating Rules" block in skills/bootstrap/SKILL.md is
-   adapted from a widely-circulated X/Twitter prompt whose original
-   author we have not been able to identify. If you know the source,
-   please open an issue so we can credit them properly.
+   a synthesis of agent-discipline prompts that circulated on X/Twitter
+   during 2025. It has no single identifiable author. If a specific
+   line is recognizably yours, please open an issue so we can credit
+   you properly.
